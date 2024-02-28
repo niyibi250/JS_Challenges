@@ -67,10 +67,11 @@ function arry_to_object(arr)
     }
     // make combine object of males and female
     let obj_comb={femeles:female_obj, males:male_obj}
-    // console.log(obj_comb)
+    return obj_comb
 
 }
 
 
-// let arr=["Patrick wyne, 30, male", "lil wyne, 32, male","Eric mimi, 21, female","Dodos deck, 21,male","Alian Dwine, 22, male","Patrick wyne, 33, male","Patrick wyne, 10,male0","Patrick wyne, 40,male"]
-// let result=arry_to_object(arr);
+let arr=["Patrick wyne, 30, male", "lil wyne, 32, male","Eric mimi, 21, female","Dodos deck, 21,male","Alian Dwine, 22, male","Patrick wyne, 33, male","Patrick wyne, 10,male0","Patrick wyne, 40,male"]
+let result=arry_to_object(arr);
+console.log(result)
